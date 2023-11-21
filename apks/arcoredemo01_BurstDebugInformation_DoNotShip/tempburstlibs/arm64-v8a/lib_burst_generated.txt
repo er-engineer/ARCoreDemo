@@ -1,0 +1,60 @@
+Library: C:\Users\EREN\My project\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
+--platform=Android
+--backend=burst-llvm-15
+--target=ARMV8A_AARCH64
+--global-safety-checks-setting=Off
+--meta-data-generation=False
+--dump=Function
+--float-precision=Standard
+--target-framework=NetFramework
+--assembly-defines=Assembly-CSharp;
+--assembly-defines=FastSpringBone;
+--assembly-defines=Mono.Security;
+--assembly-defines=mscorlib;
+--assembly-defines=MToon;
+--assembly-defines=System.Configuration;
+--assembly-defines=System.Core;
+--assembly-defines=System;
+--assembly-defines=System.Numerics;
+--assembly-defines=System.Xml;
+--assembly-defines=UniGLTF;
+--assembly-defines=UniGLTF.Utils;
+--assembly-defines=UniHumanoid;
+--assembly-defines=Unity.Burst;
+--assembly-defines=Unity.InputSystem;
+--assembly-defines=Unity.RenderPipelines.Core.Runtime;
+--assembly-defines=Unity.RenderPipelines.Universal.Runtime;
+--assembly-defines=Unity.VisualScripting.Core;
+--assembly-defines=Unity.VisualScripting.Flow;
+--assembly-defines=Unity.XR.ARCore;
+--assembly-defines=Unity.XR.ARFoundation;
+--assembly-defines=Unity.XR.ARFoundation.InternalUtils;
+--assembly-defines=Unity.XR.ARFoundation.VisualScripting;
+--assembly-defines=Unity.XR.ARSubsystems;
+--assembly-defines=Unity.XR.CoreUtils;
+--assembly-defines=Unity.XR.InteractionSubsystems;
+--assembly-defines=Unity.XR.Management;
+--assembly-defines=Unity.XR.OpenXR;
+--assembly-defines=Unity.XR.OpenXR.Features.ConformanceAutomation;
+--assembly-defines=Unity.XR.OpenXR.Features.MetaQuestSupport;
+--assembly-defines=Unity.XR.OpenXR.Features.MockRuntime;
+--assembly-defines=Unity.XR.OpenXR.Features.OculusQuestSupport;
+--assembly-defines=Unity.XR.OpenXR.Features.RuntimeDebugger;
+--assembly-defines=UnityEngine;
+--assembly-defines=VRM;
+--assembly-defines=VRMShaders.GLTF.IO.Runtime;
+--assembly-defines=VRMShaders.GLTF.UniUnlit.Runtime;
+--assembly-defines=VRMShaders.VRM.IO.Runtime;
+--assembly-defines=VRMShaders.VRM10.Format.Runtime;
+--assembly-defines=VRMShaders.VRM10.MToon10.Runtime;
+--generate-link-xml=Temp\burst.link.xml
+--temp-folder=C:\Users\EREN\My project\Temp\Burst
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer
+--decode-folder=C:\Users\EREN\My project\Library\Burst
+--output=C:\Users\EREN\My project\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
+--pdb-search-paths=Temp/ManagedSymbols/
+
+--method=UnityEngine.Jobs.IJobParallelForTransformExtensions+TransformParallelForLoopStruct`1[[VRM.FastSpringBones.Schedulers.PushTransformJobScheduler+Job, FastSpringBone, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(VRM.FastSpringBones.Schedulers.PushTransformJobScheduler+Job&, FastSpringBone, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--30f180fe0d3277341183d5e58387f3ff
+--method=UnityEngine.Jobs.IJobParallelForTransformExtensions+TransformParallelForLoopStruct`1[[VRM.FastSpringBones.Schedulers.PullTransformJobScheduler+Job, FastSpringBone, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(VRM.FastSpringBones.Schedulers.PullTransformJobScheduler+Job&, FastSpringBone, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--374993306111da3b4ecf5dd01112fdca
+--method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler+Job, FastSpringBone, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(VRM.FastSpringBones.Schedulers.UpdateSpringBoneJobScheduler+Job&, FastSpringBone, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--58199a53795d4be927462d1fc6236add
+
