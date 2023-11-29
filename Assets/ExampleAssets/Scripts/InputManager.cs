@@ -5,31 +5,29 @@ using UnityEngine.XR.ARFoundation;
 
 public class InputManager : MonoBehaviour
 {
-    // Nesne tanımlamaları
-    [SerializeField] private GameObject arGameObject;
-    [SerializeField] private Camera arCamera;
-    [SerializeField] private ARRaycastManager arraycastManager;
-    //Kameradan gelen hitting verilerini tutmak için oluşturulan liste
+    [SerializeField] private GameObject arObj;
+    [SerializeField] private Camera arCam;
+    [SerializeField] private ARRaycastManager arRaycastManager;
+    
     List<ARRaycastHit> arHits = new List<ARRaycastHit>();
-
-    //  
+    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Her frame geçişinde yapılacak olanlar
+    // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0)){ //Ekrana dokunulunca yapılacak olanlar
-            //Dokunulunca gönderilen noktanın Ray nesnesine atanması işlemi
-            Ray ray = arCamera.ScreenPointToRay(Input.mousePosition);
-            //Bu Ray nesnelerinin hitting konumlarıyla eşlenmesi
-            if(arraycastManager.Raycast(ray, arHits)){
+        if (Input.GetMouseButtonDown(0))
+        {
+            Ray ray = arCam.ScreenPointToRay(Input.mousePosition);
+            if (arRaycastManager.Raycast(ray, arHits))
+            {
                 Pose pose = arHits[0].pose;
-                //Nesnenin hitting konumuna ilgili rotasyon ile yerleştirilmesi
-                Instantiate(arGameObject, pose.position, pose.rotation);
+                Instantiate(arObj, pose.position, pose.rotation);
             }
+            
         }
     }
 }
